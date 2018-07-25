@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">TourGuideApp</string>
+    <string name="history_city_description">The fortress of Chelyaba, from which the city takes its name, was founded at the location of the Bashkir village of Chelyaby (Bashkir: Силәбе, Siläbe) by colonel Alexey (Kutlu-Muhammed) Tevkelev in 1736 to protect the surrounding trade routes from possible attacks by Bashkir outlaws. During Pugachev`s Rebellion, the fortress withstood a siege by the rebel forces in 1774, but was eventually captured for several months in 1775. In 1782, as a part of Ufa Viceroyalty that was later reformed into Orenburg Governorate, Chelyabinsk became a seat of a its own uyezd and finally was granted town status and its current name in 1787. </string>
+    <string name="city_name">Chelyabinsk</string>
+    <string name="places_to_visit">Places to visit</string>
+    <string name="take_tour">Take tour!</string>
+    <!-- tab names -->
+    <string name="popular_places">Sights</string>
+    <string name="cafe_restaurants">Cafe</string>
+    <string name="museums">Museums</string>
+    <string name="hotels">Hotels</string>
+
+    <!-- Popular places-->
+    <string name="kirovka">Kirova street</string>
+    <string name="SUSU">South Ural State University</string>
+    <string name="revolution_square">Revolution square</string>
+    <string name="gagarin_park">Gagarin park</string>
+
+    <string name="kirovka_address">Kirova street</string>
+    <string name="susu_address">Prospekt Lenina 76</string>
+    <string name="revolution_square_address">Revolution square</string>
+    <string name="gagarin_park_address">Central Park of Culture and Rest. Yu.A. Gagarin</string>
+
+    <string name="susu_phone">555-55-55</string>
+
+    <string name="kirovka_description">The most popular street in Chelyabinsk.</string>
+    <string name="SUSU_description">South Ural State University (SUSU) (Russian: Южно-Уральский Государственный Университет (ЮУрГУ)) in Chelyabinsk is one of the largest educational institutions in Russia. It is among the top-ten of the Russian universities according to the state rating of the Ministry of Education and Science of the Russian Federation, and the largest in Russia in terms of the number of undergraduates.</string>
+    <string name="revolution_square_description">The Revolution Square is an architectural complex, the main and most famous square of Chelyabinsk, located in the center of the city and bounded by Vorovskogo and Kirov streets from the west, Zwilling from the east, Timiryazev from the south and Lenin Avenue from the north. Although it is believed that the Theater Square is located in the south of the Revolution Square, outside Timiryazev Street, all the buildings on the second (including the Drama theater itself, in honor of which this square is called Teatralnaya) are addressed to the first.</string>
+    <string name="gagarin_park_description">Park of Culture and Rest. A. Gagarin is the most beautiful park in Chelyabinsk. Fresh air, thick crowns of trees, blue surface of reservoirs, comfort and cleanliness attract hundreds of thousands of townspeople. The park is located almost in the center of the city, and at the same time, after a walk a quarter of an hour, you can get to the pine forest.</string>
+
+    <!-- Museums -->
+    <string name="regional_museun">Chelyabinsk Museum of Regional Studies</string>
+    <string name="railroad_museum">Museum of History of The Southern Ural Railroad</string>
+    <string name="art_museum">Chelyabinsk Region Art Museum</string>
+
+    <string name="regional_museum_address">Labor street, 100.</string>
+    <string name="railroad_museum_address">Zwilling, 54</string>
+    <string name="art_museum_address">Labor street, 92a.</string>
+
+    <string name="regional_museum_phone">457-35-88</string>
+    <string name="railroad_museum_phone">926-54-85</string>
+    <string name="art_museum_phone">512-69-96</string>
+
+    <string name="regional_museum_description">The State Historical Museum of the Southern Urals is a museum of the history of the Chelyabinsk region. It was opened in 1923. Until 2016 - Chelyabinsk State Museum of Local History.</string>
+    <string name="railroad_museum_description">The Museum of History of South-South Railway is located in Chelyabinsk. It was founded on December 7, 1973 in the Palace of Culture of Railway Workers. Since 2004 it is located at ul. Zwilling, 63.</string>
+    <string name="art_museum_description">The Chelyabinsk State Museum of Fine Arts is the only art museum of the classical type in the Southern Urals. The date of birth of the museum is June 6, 1940, when the Chelyabinsk city art gallery was opened in the building of the Alexander Nevsky Church on the Al area. In 1940, the gallery received 106 paintings and drawings from the State Russian Museum. The transferred items, as well as works with the exhibition "South Urals in Painting", which was held in 1936-1939, represented the famous capital and local masters, formed the basis of the museum collection.</string>
+
+    <!-- Cafe & Restaurant -->
+    <string name="pomidor_cafe">Pomidor</string>
+    <string name="cows_cafe">The Telki</string>
+    <string name="pizza_cafe">Pizza Mia</string>
+    <string name="elephant_cafe">Slon</string>
+
+    <string name="pomidor_cafe_address">Lenin Ave., 54</string>
+    <string name="cows_cafe_address">Kirova street, 82</string>
+    <string name="pizza_cafe_address">Lenin Ave., 83</string>
+    <string name="elephant_cafe_address">Lenin Ave.,</string>
+
+    <string name="pomidor_cafe_phone">512-30-80</string>
+    <string name="cows_cafe_phone">312-45-12</string>
+    <string name="pizza_cafe_phone">851-32-34</string>
+    <string name="elephant_cafe_phone">352-85-47</string>
+
+    <string name="pomidor_cafe_description">Today Tomato is a network of popular pizzerias with exceptional home cooking and a cozy atmosphere, where warm memories are born and where one wants to return.
+The menu features more than twenty types of pizza, both traditional and authorial. A variety of national Italian dishes is complemented by an appetizing pasta with exquisite sauces and lasagna from a homemade dough.</string>
+    <string name="cows_cafe_description">THE TELKI is a network of burgers created jointly with the writer Sergei Minaev, the author of the best-selling books "The Tela" and "DuhLess", a businessman and restaurateur who appreciates first and foremost the quality and creates a cozy atmosphere in every institution for its guests.</string>
+    <string name="pizza_cafe_description">PIZZA MIA is a dynamically developing network of fast-food enterprises in the Ural FEDERAL DISTRICT. The company was founded in 2001. The head office is located in Yekaterinburg. To date, PIZZA MIA has 27 restaurants in six regional centers: Yekaterinburg, Tyumen, Chelyabinsk, Ufa, Perm. Including open restaurants in Kamensk-Uralsky, Pervouralsk, Verkhnyaya Pyshma.</string>
+    <string name="elephant_cafe_description">Elephant Restaurant - European cuisine with attentive service in a stylish interior.
+On the spot where the restaurant is now located they found a tusk of a huge animal. Today he would be 5 million years old. We decided to give him a new life. So the restaurant Elephant appeared!</string>
+
+    <!-- Hotels -->
+    <string name="radison_hotel">Radison Blue</string>
+    <string name="vidgof_hotel">Vidgof</string>
+    <string name="south_ural_hotel">South Ural Hotel</string>
+    <string name="slavyanka_hotel">Slavyanka</string>
+
+    <string name="radison_hotel_address">Truda street 179</string>
+    <string name="vidgof_hotel_address">Lenina Ave., 26a</string>
+    <string name="south_ural_hotel_address">Lenina Ave., 22</string>
+    <string name="slavyanka_hotel_address">Lenina Ave., 20</string>
+
+    <string name="radison_hotel_phone">555-47-74</string>
+    <string name="vidgof_hotel_phone">744-55-55</string>
+    <string name="south_ural_hotel_phone">926-44-77</string>
+    <string name="slavyanka_hotel_phone">323-66-99</string>
+
+    <string name="radison_hotel_description">The hotel is conveniently located in the business center of Chelyabinsk, in close proximity to significant administrative, cultural, entertainment and shopping facilities.
+The hotel is characterized by excellent walking and transport accessibility (10 minutes by car from the train station and 25 minutes from the airport).</string>
+    <string name="vidgof_hotel_description">This hotel with free Wi-Fi, parking and a fitness center is located in the heart of Chelyabinsk, just a 6-minute drive from Chelyabinsk Train Station. There is a spa with an indoor pool.</string>
+    <string name="south_ural_hotel_description">Hotel "South Ural" is located in the heart of Chelyabinsk. It offers affordable accommodation with views of the Revolution Square, free Wi-Fi and free parking.
+Hotel "South Ural" is located in a 6-storey building with rooms of various categories: from economy class to suites.
+The hotel "South Ural" has a quiet and peaceful atmosphere, and the polite staff will recommend local attractions and entertainment.</string>
+    <string name="slavyanka_hotel_description">This hotel is located in Chelyabinsk, just 4 minutes drive from Revolution Square and 3 km from the city`s railway station. It offers free Wi-Fi and a restaurant serving Mediterranean cuisine.
+Decorated in light colors, the rooms at the Slavyanka Hotel are equipped with air conditioning, cable TV and a minibar, and the bathroom comes with a hairdryer, toiletries, and bathrobes and slippers.</string>
+
+    <string name="name">Name of place</string>
+    <string name="description">Description</string>
+    <string name="phone_number">Phone</string>
+    <string name="address">Address</string>
+    <string name="address_left">Address: \ </string>
+    <string name="test_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sapien erat, mollis ac est vitae, cursus convallis odio. Morbi eget faucibus tellus. Aenean risus tortor, varius in nibh ut, interdum molestie nibh. Nulla consectetur efficitur tortor id tincidunt. Maecenas gravida, arcu at aliquet ullamcorper, massa risus laoreet augue, sed venenatis purus ipsum quis tellus. Quisque at accumsan dui. Phasellus arcu sapien, vulputate finibus ullamcorper vitae, placerat ac orci. Suspendisse potenti. Duis rhoncus at eros nec.</string>
+
+</resources>

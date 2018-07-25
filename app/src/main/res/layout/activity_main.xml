@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout style="@style/LinearLayoutVertical">
+
+        <ImageView style="@style/HeaderImageMainActivity" />
+
+        <TextView style="@style/TextViewCityName" />
+
+        <TextView
+            style="@style/TextViewDescription"
+            android:text="@string/history_city_description" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/chelyabinsk"
+                style="@style/ButtonTakeTour"
+                android:text="@string/take_tour" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

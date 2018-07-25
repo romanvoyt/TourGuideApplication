@@ -1,0 +1,193 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Activity main style -->
+
+    <style name="LinearLayoutVertical">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="HeaderImageMainActivity">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/chelyabinsk_header_height</item>
+        <item name="android:src">@drawable/header_chelyabinsk</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+
+    <style name="TextViewCityName">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/city_name</item>
+        <item name="android:textSize">@dimen/header_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingTop">@dimen/default_margin</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+
+    <style name="TextViewDescription">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/passage_text_size</item>
+        <item name="android:paddingTop">@dimen/default_margin</item>
+        <item name="android:paddingBottom">@dimen/default_margin</item>
+        <item name="android:paddingLeft">22dp</item>
+    </style>
+
+    <style name="ButtonTakeTour">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+
+    <!-- Activity details style -->
+
+    <style name="CategoryTab" parent="Widget.Design.TabLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/tab_background</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabTextAppearance">@style/CategoryTabTextAppearance</item>
+        <item name="tabMode">scrollable</item>
+        <item name="tabTextColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">#A8A19E</item>
+    </style>
+
+    <style name="ViewPager">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!-- Description activity styles-->
+
+    <style name="ScrollViewDescription">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+
+    </style>
+
+    <style name="LinearLayoutDescription">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingBottom">@dimen/standard_padding</item>
+    </style>
+
+    <style name="HeaderImageDescription">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/info_activity_image_height</item>
+        <item name="android:scaleType">centerCrop</item>
+
+    </style>
+
+    <style name="TextViewNameDescription">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size2</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="TextViewDescDescription">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size1</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="TextViewAddress">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size1</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="TextViewAddresssDescription">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size1</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="TextViewPhoneDescription">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size1</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <!-- List item styles -->
+
+    <style name="RelativeLayoutListItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="ImageListItem">
+        <item name="android:layout_width">@dimen/list_image_width</item>
+        <item name="android:layout_height">@dimen/list_image_heigth</item>
+        <item name="android:scaleType">centerCrop</item>
+
+    </style>
+
+    <style name="LinearLayoutListItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_image_heigth</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="PlaceNameListItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:paddingLeft">@dimen/standard_padding</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textSize">@dimen/list_item_big_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="PlaceAddressListItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">top</item>
+        <item name="android:paddingLeft">@dimen/standard_padding</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textSize">@dimen/list_item_small_size</item>
+    </style>
+
+    <!-- List view style -->
+    <style name="ListViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:drawSelectorOnTop">true</item>
+    </style>
+
+
+</resources>

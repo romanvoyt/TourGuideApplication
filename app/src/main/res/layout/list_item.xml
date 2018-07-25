@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/RelativeLayoutListItem">
+
+    <ImageView
+        android:id="@+id/image"
+        style="@style/ImageListItem" />
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        style="@style/LinearLayoutListItem"
+        android:layout_toRightOf="@+id/image">
+
+        <TextView
+            android:id="@+id/place_name"
+            style="@style/PlaceNameListItem"
+            tools:context="name" />
+
+        <TextView
+            android:id="@+id/place_address"
+            style="@style/PlaceAddressListItem"
+            tools:context="address" />
+
+    </LinearLayout>
+
+</RelativeLayout>
